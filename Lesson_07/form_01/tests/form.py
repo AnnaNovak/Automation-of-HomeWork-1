@@ -16,6 +16,7 @@ def test_complete_the_form():
     form_page.complete_the_form()
     form_page.sublime_click()
     form_page.zip_code_red()
+    form_page.other_green()
 
     # Закрытие браузера
     driver.quit()
